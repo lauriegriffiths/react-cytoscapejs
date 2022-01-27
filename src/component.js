@@ -70,7 +70,7 @@ export default class CytoscapeComponent extends React.Component {
       pixelRatio
     }));
 
-    if (global && window) {
+    if (global) {
       window[global] = cy;
     }
 
