@@ -21,7 +21,8 @@ let conf = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'react-cytoscape.js',
     library: 'ReactCytoscape',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    globalObject: 'this',
   },
 
   externals: {
